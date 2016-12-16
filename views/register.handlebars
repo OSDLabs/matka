@@ -1,0 +1,167 @@
+<div class='page-header'>
+<link rel="stylesheet" type="text/css" href="/stylesheets/other.css">
+<form class="form-horizontal" role='form' action='process?form=register' method='POST'>
+<fieldset>
+
+<input type='hidden' name='_csrf' value='{{csrf}}'>
+
+<!-- Form Name -->
+<legend>Register</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="city">City</label>  
+  <div class="col-md-4">
+  <input id="city" name="city" type="text" placeholder="Mumbai" class="form-control input-md" required="">
+  <span class="help-block">Your City</span>  
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="team_name">Team Name</label>  
+  <div class="col-md-4">
+  <input id="team_name" name="team_name" type="text" placeholder="Avengers" class="form-control input-md" required="">
+  <span class="help-block">Your Team Name</span>  
+  </div>
+</div>
+
+<div class = "row">
+<div class = "col-md-3 col-md-offset-4">
+<div class="panel panel-default">
+<div class="panel-heading">Team Captain</div>
+<br>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="team_captain_name">Name</label>  
+  <div class="col-md-7">
+  <input id="team_captain_name" name="team_captain_name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="team_captain_phone">Phone</label>  
+  <div class="col-md-7">
+  <input id="team_captain_phone" name="team_captain_phone" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="team_captain_email">Email</label>  
+  <div class="col-md-7">
+  <input id="team_captain_email" name="team_captain_email" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class = "row">
+<div class = "col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading">Player 1</div>
+<br>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="player_1_name">Name</label>  
+  <div class="col-md-7">
+  <input id="player_1_name" name="player_1_name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<div class = "col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading">Player 2</div>
+<br>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="player_2_name">Name</label>  
+  <div class="col-md-7">
+  <input id="player_2_name" name="player_2_name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+</div>
+</div>
+
+<div class = "col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading">Player 3</div>
+<br>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="player_3_name">Name</label>  
+  <div class="col-md-7">
+  <input id="player_3_name" name="player_3_name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+</div>
+</div>
+
+<div class = "col-md-3">
+<div class="panel panel-default">
+<div class="panel-heading">Player 4</div>
+<br>
+<div class="form-group">
+  <label class="col-md-4 control-label" for="player_4_name">Name</label>  
+  <div class="col-md-7">
+  <input id="player_4_name" name="player_4_name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="alternate_phone">Alternate Phone</label>  
+  <div class="col-md-4">
+  <input id="alternate_phone" name="alternate_phone" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="participate">Participation</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="participate-0">
+      <input type="checkbox" name="participate" id="participate-0" value="DOTA">
+      DOTA
+    </label>
+    <label class="checkbox-inline" for="participate-1">
+      <input type="checkbox" name="participate" id="participate-1" value="CSGO">
+      CSGO
+    </label>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-5 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Register</button>
+  </div>
+</div>
+
+
+</fieldset>
+</form>
+</div>
