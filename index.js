@@ -11,7 +11,7 @@ app.set('view engine', 'handlebars');
 
 app.use(require('body-parser').urlencoded({extended: true}));
 
-var credentials = require('./credentials.js');
+// var credentials = require('./credentials.js');
 
 app.set('port', 17970);
 app.use(express.static(__dirname + '/public'));
