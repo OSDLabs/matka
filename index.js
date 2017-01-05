@@ -13,7 +13,9 @@ app.use(require('body-parser').urlencoded({extended: true}));
 
 // var credentials = require('./credentials.js');
 
-app.set('port', 17970);
+var port = process.env.PORT || 17970
+
+app.set('port', port);
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
