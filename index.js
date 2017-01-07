@@ -22,9 +22,9 @@ app.get('/', function(req, res) {
 	res.render('home');
 });
 
-app.get('/register', function(req, res){
-	res.render('register', { csrf: 'CSRF token here'})
-});
+// app.get('/register', function(req, res){
+// 	res.render('register', { csrf: 'CSRF token here'})
+// });
 
 app.get('/thankyou', function(req, res){
 	res.render('thankyou');
