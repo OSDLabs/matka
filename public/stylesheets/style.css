@@ -558,6 +558,14 @@ ul.sponsor-list li:nth-child(4) p {
     font-family: 'Russo One';
 }
 
+ul.sponsor-list li:nth-child(5) p {
+    color: whitesmoke;
+    vertical-align: middle;
+    line-height: 43vh;
+    text-align: center;
+    font-family: 'Russo One';
+}
+
 ul.sponsor-list li:nth-child(1) img {
     height: 30vh;
     width: 100%;
@@ -580,6 +588,13 @@ ul.sponsor-list li:nth-child(4) img {
     width: 100%;
     position: relative;
     top: 10vh;
+}
+
+ul.sponsor-list li:nth-child(5) img {
+    height: 10.7vh;
+    width: 100%;
+    position: relative;
+    top: 20vh;
 }
 
 ul.sponsor-list li div.img-wrapper {
